@@ -40,7 +40,7 @@ export default createStore({
           }`
         },
           {headers: {
-              "Authorization": "bearer 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"
+              "Authorization": "bearer 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"
             }});
         commit('setCards', [...response.data.data.user.issues.nodes]);
       } catch (e) {
